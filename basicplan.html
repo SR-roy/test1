@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Make your body and mind strong and powerful by doing exercise"> <meta name="keywords"
+    content="Gym, bodybuilding place, healthier body, exercise, build your dream">
+  <meta name="author" content="Sathi Roy">
+  <!--google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+  <!--font awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+
+  <link href="basicplan.css" rel="stylesheet">
+  <title>basic plan</title>
+  
+</head>
+
+
+<body>
+<div class="payment_form">
+   <h2>payment Details</h2>
+   <form action="#" method="post" onsubmit="validateForm(event)">
+          <div class="form-group">
+                  <label for="cardholder-name">Cardholder name</label>
+                  <input type="text" id="cardholder-name" name="cardholder-name" placeholder="Sathi Roy"required>
+                  <small id="name-error" class="error" style="color:red"></small>
+         </div>
+       
+        <div class="form-group">
+               <label for="card-number">Card Number</label>
+               <input type="text" id="card-number" name="card-number" placeholder="123 5678 9012 3456" maxlength="19" required>
+               <small id="card-number-error" class="error" style="color:red"></small>
+        </div>
+
+      <div class="row">
+            <div class="form-group">
+                  <label for="expiry-date">Expiry Date</label>
+                  <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" maxlength="5" required>
+                  <small id="expiry-date-error" class="error" style="color:red"></small>
+            </div>
+
+            <div class="form-group">
+               <label for="cvv">CVV</label>
+               <input type="text" id="cvv" name="cvv" placeholder="123" maxlength="3" required>
+               <small id="cvv-error" class="error" style="color:red"></small>
+         </div>
+     </div>
+
+           <div class="form-group">
+               <label for="amount">Amount</label>
+                <input type="text" id="amount" name="amount" placeholder="&dollar; 0.00" required>
+                <small id="amount-error" class="error" style="color:red"></small>
+            </div>
+       
+      <button type="submit" class="submit-btn">pay Now</button>
+       
+
+   </form>
+</div>
+
+<script src="baseplan.js"></script>
+</body>
+</html>

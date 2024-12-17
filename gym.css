@@ -1,0 +1,408 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+
+body {
+    font-family: "Poppins",serif;
+}
+
+/*header section*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top:0%;
+    width:100%;
+    height:90px;
+    background-color: rgb(221, 193, 223);
+    color: black;
+}
+.logo {
+    font-size: 32px;
+    
+
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    margin-inline: 22px;
+    font-size: 18px;
+    color:black;
+    font-weight: 600;
+    
+
+}
+
+#bar {
+    display: none;
+    font-size: 30px;
+    cursor:pointer;
+}
+
+/*main section start*/
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 111px;
+}
+.main img {
+    width: 800px;
+    
+}
+.mainText{
+    margin-top: 55px;
+}
+.mainText h1 {
+    font-size: 65px;
+}
+.mainText p {
+  font-size: 20px;
+  margin-top: 22px;
+}
+.mainText button {
+    width:140px;
+    height:40px;
+    background-color: blue;
+    color:white;
+    border:radius;
+    margin-top: 22px;
+    font-size:20px ;
+}
+/* main section end*/
+
+/*challenge section start*/
+.trials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.trials .card {
+width:330px;
+margin-inline: 20px;
+background-color: blueviolet;
+text-align: center;
+cursor: pointer;
+margin-top: 22px;
+
+}
+.card img {
+  width:100%; 
+  height:290px; 
+}
+.crdText p{
+margin-top: 13px;
+}
+.crdText {
+    padding: 11px;
+}
+.crdText button {
+    margin-top: 13px;
+    width:90px;
+    height:34px;
+    background-color:blue ;
+    color:white;
+    font-size: 18px;
+    border-radius: 21px;
+    border: none;
+}
+.head {
+    padding: 88px;
+    text-align: center;
+}
+/*challenges section start*/
+
+/*Membership section start*/
+.plans {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.plans p {
+    font-size: 20px;
+}
+.planCard {
+    width:290px;
+    padding: 22px;
+    text-align: center;
+    box-shadow:1px 3px 3px 3px rgb(228, 148, 148) ;
+    border-radius: 3px;
+    margin-inline: 20px;
+    margin-top: 22px;
+}
+
+
+.planCard button {
+    margin-top: 22px;
+    width:110px;
+    height:34px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    font-size: 18px;
+    border: none;
+
+}
+.planCard h2 {
+  padding: 20px; 
+  background-color:rgb(112, 183, 83) ; 
+  color: white;
+
+}
+.head1 {
+    padding: 88px;
+    text-align: center;
+}
+p {
+font-size: 20px;
+}
+/*membership section end */
+
+/*client section start*/
+.member {
+    width:900px;
+    height:330px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+
+}
+.slider {
+    width:100%;
+    height: 100%;
+    position:absolute;
+    margin: auto;
+    text-align: center;
+    transition: all 1s ease;
+    
+}
+.slider img {
+    width:250px;
+    height: 240px;
+    border-radius: 5px;
+    margin-inline: 20px;
+    text-align: center;
+}
+.head2{
+    padding: 88px;
+    text-align: center;
+}
+
+.client-description {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+    font-size: 20px;
+    color: black;
+}
+/* Client section end */
+
+/*contact section start*/
+.join {
+    flex: 1 1 300px;
+    max-width:450px;
+    padding:25px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(87, 60, 87);
+    margin: 5px;  /*added margin to keep distance from corner*/
+    
+}
+.join-container {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    margin: 20px;
+}
+.join input {
+    width:90%;
+    height:22px;
+    padding: 11px;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 22px;
+}
+.join button {
+    width:120px;
+    height:35px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border:none;
+    margin-top: 22px;
+}
+.head3 {
+    padding: 70px;
+    text-align: center;
+}
+#map{
+ flex: 1 1 300px;
+  max-width:600px; 
+  height: 400px;
+  margin:5px; /*added margin to keep distance from corners */
+    
+}
+/*contact section end*/
+
+/*footer section start*/
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 66px;
+    margin-top: 66px;
+    background-color:rgb(103, 89, 89);
+    color:white;
+}
+.text p {
+    margin-top: 13px;
+}
+
+.icon {
+    margin-right: 10px;
+    color: rgb(52, 42, 239);
+    font-size: 25px;
+}
+
+
+/*card detail javascript*/
+.detailCard{
+    text-align: center;
+}
+.detailCard img{
+    width:70%;
+    height:66%;
+}
+.detailCard p {
+    margin-top: 22px;
+} 
+.detailCard button {
+    width:90px;
+    height:33px;
+    border-radius: 22px;
+    border:none;
+    font-size: 20px;
+    background-color:rgb(82, 74, 194);
+    margin-top: 22px;
+    color:white;
+}
+.detailCard a {
+  padding: 5px 22px;
+  border-radius: 22px;  
+  border:none;
+  font-size: 18px;
+  background-color: rgb(105, 193, 78);
+ text-decoration: none;
+ color: white;
+}
+
+
+/* Add padding to the top of each main content to ensure they are not hidden behind the navbar*/
+#home {
+padding-top:100px;
+}
+#challenge {
+ padding-top: 100px;   
+}
+#membership {
+  padding-top: 100px;  
+}
+#client {
+    padding-top: 100px;
+}
+#contact {
+    padding-top: 100px;
+}
+
+
+
+
+
+/* media quaries for adjusting in different screen size*/
+@media screen and (max-width:1100px) {
+   .main{
+      text-align: center;
+      display: block;
+   } 
+    
+}
+@media screen and (max-width:800px){
+   
+    ul{
+        display: none;
+        flex-direction: column;
+        width:100%;
+        background-color: rgb(15,13,13);
+        position:absolute;
+        top:120px;
+        left:0;
+       } 
+
+    ul li {
+        text-align: center;
+        margin: 10px 0;
+    }
+    
+    
+    
+    #bar{
+        display: block;
+    }
+    .show {
+        display:flex;
+    }
+}
+@media screen and (max-width:950px){
+.member{
+    width: 90%;
+}
+.slider img{
+    width:170px;
+}
+.slider {
+   margin-inline:11px ; 
+}
+}
+@media screen and (max-width:750px){
+ 
+ .slider img {
+    width:130px;
+    height:160px;
+    margin-inline: 6px;
+ }  
+ 
+}
+@media screen and (max-width:510px){
+    .member{
+        width:99%;
+    }
+    .slider img{
+        width:90px;
+        height:120px;
+        margin-inline: 2px;
+    }
+    
+    .join {
+        width:80%;
+    }
+    .main h1{
+      font: size 33px; 
+    }
+    .main p{
+       font-size:14px ; 
+    }
+    .main img{
+      width:99%;  
+    }
+}
